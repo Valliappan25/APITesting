@@ -1,3 +1,5 @@
+VideoGame DB Endpoint - https://github.com/james-willett/VideoGameDB
+
 http://pojo.sodhanalibrary.com/ - JSON to POJO
 https://www.freeformatter.com/xsd-generator.html#ad-output - XSD/XML Schema Generator
 https://www.football-data.org/ - football API
@@ -7,3 +9,7 @@ Json Groovy
 https://www.james-willett.com/groovy-gpath-in-rest-assured-part1-overview/
 https://www.james-willett.com/rest-assured-gpath-json
 https://www.james-willett.com/rest-assured-gpath-json
+
+Authentication
+https://github.com/rest-assured/rest-assured/wiki/Usage#authentication - Basic & OAuth
+https://github.com/rest-assured/rest-assured/wiki/Usage#ssl - SSL
