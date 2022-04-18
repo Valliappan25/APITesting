@@ -1,5 +1,7 @@
 package configuration;
 
+import static org.hamcrest.Matchers.lessThan;
+
 import org.junit.BeforeClass;
 
 import io.restassured.RestAssured;
@@ -29,6 +31,7 @@ public class FootballAPIConfig {
 		
 		footballResponse = new ResponseSpecBuilder()
 				.expectStatusCode(200)
+				.expectResponseTime(lessThan(2000L))
 				.build();
 		
 		RestAssured.requestSpecification = footballRequest;
